@@ -2398,6 +2398,10 @@ has@^1.0.1:
   dependencies:
     function-bind "^1.1.1"
 
+highlight-words-core@^1.0.3:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/highlight-words-core/-/highlight-words-core-1.2.2.tgz#1eff6d7d9f0a22f155042a00791237791b1eeaaa"
+
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -4215,7 +4219,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.5.8, prop-types@^15.6.2:
+prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -4288,6 +4292,13 @@ react-devtools-core@^3.4.0:
 react-is@^16.6.0-alpha.8af6728:
   version "16.6.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.6.1.tgz#f77b1c3d901be300abe8d58645b7a59e794e5982"
+
+react-native-highlight-words@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-highlight-words/-/react-native-highlight-words-1.0.1.tgz#d998f8eb88765820367c6e8a12e1392df7fd58c7"
+  dependencies:
+    highlight-words-core "^1.0.3"
+    prop-types "^15.5.7"
 
 react-native-vector-icons@^6.0.2:
   version "6.0.2"
